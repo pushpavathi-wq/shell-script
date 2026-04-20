@@ -1,6 +1,6 @@
 #!/bin/bash
 
-person1=$1
+person1=$1     # variables declared
 person2=$2
 
 
