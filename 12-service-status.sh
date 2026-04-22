@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SERVICE=nginx
+SERVICE=$1
 
 if systemctl is-active --quiet $SERVICE  ### quiet is used to display nothing if service is active
 then
