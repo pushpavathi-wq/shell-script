@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # password entering script
 
 
@@ -10,7 +11,8 @@
 # echo "no password enterd"
 # else 
 # echo "password entered:$password"
-# fi 
+# fi
+
 
 
 

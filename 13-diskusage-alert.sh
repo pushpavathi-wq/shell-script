@@ -2,7 +2,7 @@
 
 THRESHOLD=90
 
-USAGE=$(df -h --output=pcent / | tail -1 | tr -d '%') # tr -translate
+USAGE=$(df -h / | awk 'NR==2 {print int($5)}')   # number of records
 
 if [ $USAGE -ge $THRESHOLD ]
 then
